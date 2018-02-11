@@ -24,6 +24,6 @@ function dec(a){
 
 function makeInt(a){
   if (parseInt(a,10) === a) {
-    return a
+    return parseInt(a,10)
   }
 }
