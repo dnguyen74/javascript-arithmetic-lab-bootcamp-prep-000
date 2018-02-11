@@ -26,7 +26,7 @@ function makeInt(a){
   if (parseInt(a,10) === a) {
     return parseInt(a,10)
   }
-  if (parseInt(a) ===0){
+  if (parseInt(a) === 0){
     return parseInt(a)
   }
   if (parseInt(a).isNaN === true) {
