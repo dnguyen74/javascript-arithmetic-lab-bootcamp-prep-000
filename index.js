@@ -23,14 +23,5 @@ function dec(a){
 }
 
 function makeInt(a){
-  if (parseInt(a,10) === a) {
-    return parseInt(a,10)
-  }
-  if (parseInt(a) === 0){
-    return 0
-  }
-  if (parseInt(a).isNaN === true) {
-    return NaN
-    
-  }
+  return parseInt(a,10)
 }
